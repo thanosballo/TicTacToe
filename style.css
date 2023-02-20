@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 300px;
+    height: 300px;
+}
+.square{
+    background-color: darkseagreen;
+}
+.x{
+        background-color: black;
+}
+.o {
+    background-color: aliceblue;
+}
